@@ -1,0 +1,3053 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/s0160169/ontologies/2023/10/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/s0160169/ontologies/2023/10/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/s0160169/ontologies/2023/10/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Актеры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Билет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Бюджет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Зал"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Кинотеатр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Озвучка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Оценка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Продюсер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Расположение"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Реклама"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Руководство"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сеансы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Студия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Съемочная_площадка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Фильм"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Идет_фильм"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_актера"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_зал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Находится_в"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Переведено_на"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Рекламируется"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Сеанс"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Адрес"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Время"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Дата_продажи"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Имеет_возраст"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Имеет_жанр"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Имеет_стоимость"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Качество"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Кол-во_актеров"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Кол-во_залов"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Кол-во_мест"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Контактный_телефон"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Награды"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Оборудование"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ограничение"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Отзывы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Расположен_в"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Режиссер"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Рецензии"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Сборы_в_России"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Сборы_в_мире"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Создан"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Статус"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Страна"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тех_поддержка"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Тип_зала"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Формат_озвучки"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Цена"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anidab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dibmind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OOO_Cry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OOO_Dog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OOO_Dye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OOO_Fly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OOO_Frog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Аватар"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Аврора"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Английская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Афиша"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Барби"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вечерние"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Гоблин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Город"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Замок"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Зои_Салдана"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Казань"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Киномакс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Китайская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Космос"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Краснодар"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кристина_Риччи"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Листовки"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Лондон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Марго_Робби"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Море"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ночные"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Обеденные"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ольга_Кузьмина"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пламя"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Праздничные"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Природа"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Радио"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Русская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сергей_Гармаш"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ташкент"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Телевизор"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Том_Акерли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Трейлер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Узбекская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Утренние"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Фэнтези"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Чебурашка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Японская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1000+_$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150_Руб"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150+_$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#18+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2x2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#200_Руб"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#21+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#250"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#250_Руб"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#300+_$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4-5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#450"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#50+_$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#500_Руб"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#500+_$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#550_Руб"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6+"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6-7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8-9"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Билет"/>
+        <Class IRI="#Актеры"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Студия"/>
+        <NamedIndividual IRI="#Anidab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Студия"/>
+        <NamedIndividual IRI="#Dibmind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Студия"/>
+        <NamedIndividual IRI="#Fox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Руководство"/>
+        <NamedIndividual IRI="#OOO_Cry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Руководство"/>
+        <NamedIndividual IRI="#OOO_Dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Руководство"/>
+        <NamedIndividual IRI="#OOO_Dye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Руководство"/>
+        <NamedIndividual IRI="#OOO_Fly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Руководство"/>
+        <NamedIndividual IRI="#OOO_Frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Аватар"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Кинотеатр"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Озвучка"/>
+        <NamedIndividual IRI="#Английская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Реклама"/>
+        <NamedIndividual IRI="#Афиша"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Барби"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сеансы"/>
+        <NamedIndividual IRI="#Вечерние"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Студия"/>
+        <NamedIndividual IRI="#Гоблин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Съемочная_площадка"/>
+        <NamedIndividual IRI="#Город"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Съемочная_площадка"/>
+        <NamedIndividual IRI="#Замок"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Зои_Салдана"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Расположение"/>
+        <NamedIndividual IRI="#Казань"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Кинотеатр"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Озвучка"/>
+        <NamedIndividual IRI="#Китайская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Кинотеатр"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Расположение"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Кристина_Риччи"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Реклама"/>
+        <NamedIndividual IRI="#Листовки"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Расположение"/>
+        <NamedIndividual IRI="#Лондон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Съемочная_площадка"/>
+        <NamedIndividual IRI="#Море"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сеансы"/>
+        <NamedIndividual IRI="#Ночные"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Расположение"/>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сеансы"/>
+        <NamedIndividual IRI="#Обеденные"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Ольга_Кузьмина"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Кинотеатр"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сеансы"/>
+        <NamedIndividual IRI="#Праздничные"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Съемочная_площадка"/>
+        <NamedIndividual IRI="#Природа"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Реклама"/>
+        <NamedIndividual IRI="#Радио"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Озвучка"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Сергей_Гармаш"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Расположение"/>
+        <NamedIndividual IRI="#Ташкент"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Реклама"/>
+        <NamedIndividual IRI="#Телевизор"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Реклама"/>
+        <NamedIndividual IRI="#Трейлер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Озвучка"/>
+        <NamedIndividual IRI="#Узбекская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Продюсер"/>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сеансы"/>
+        <NamedIndividual IRI="#Утренние"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Съемочная_площадка"/>
+        <NamedIndividual IRI="#Фэнтези"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Фильм"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актеры"/>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Озвучка"/>
+        <NamedIndividual IRI="#Японская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оценка"/>
+        <NamedIndividual IRI="#0-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Зал"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оценка"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Бюджет"/>
+        <NamedIndividual IRI="#1000+_$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Билет"/>
+        <NamedIndividual IRI="#15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Бюджет"/>
+        <NamedIndividual IRI="#150+_$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Билет"/>
+        <NamedIndividual IRI="#16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Зал"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Студия"/>
+        <NamedIndividual IRI="#2x2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Билет"/>
+        <NamedIndividual IRI="#21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Билет"/>
+        <NamedIndividual IRI="#22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Зал"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Бюджет"/>
+        <NamedIndividual IRI="#300+_$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Билет"/>
+        <NamedIndividual IRI="#33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Зал"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оценка"/>
+        <NamedIndividual IRI="#4-5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Зал"/>
+        <NamedIndividual IRI="#5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Бюджет"/>
+        <NamedIndividual IRI="#50+_$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Бюджет"/>
+        <NamedIndividual IRI="#500+_$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оценка"/>
+        <NamedIndividual IRI="#6-7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Оценка"/>
+        <NamedIndividual IRI="#8-9"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Зои_Салдана"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Фэнтези"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Английская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#OOO_Dog"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#OOO_Dye"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#Казань"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#Афиша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <NamedIndividual IRI="#Телевизор"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <NamedIndividual IRI="#Английская"/>
+        <NamedIndividual IRI="#2x2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Фэнтези"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#4-5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Узбекская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Барби"/>
+        <NamedIndividual IRI="#Японская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Природа"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#6-7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <NamedIndividual IRI="#Аватар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <NamedIndividual IRI="#Барби"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <NamedIndividual IRI="#3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Город"/>
+        <NamedIndividual IRI="#Казань"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Город"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Город"/>
+        <NamedIndividual IRI="#Ташкент"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Замок"/>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <NamedIndividual IRI="#OOO_Cry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <NamedIndividual IRI="#Ташкент"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <NamedIndividual IRI="#Афиша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <NamedIndividual IRI="#Листовки"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <NamedIndividual IRI="#Китайская"/>
+        <NamedIndividual IRI="#Fox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <NamedIndividual IRI="#Космос"/>
+        <NamedIndividual IRI="#OOO_Fly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Космос"/>
+        <NamedIndividual IRI="#Лондон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Космос"/>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Космос"/>
+        <NamedIndividual IRI="#Радио"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Космос"/>
+        <NamedIndividual IRI="#Трейлер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Море"/>
+        <NamedIndividual IRI="#Ташкент"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Море"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Английская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <NamedIndividual IRI="#Узбекская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <NamedIndividual IRI="#OOO_Frog"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <NamedIndividual IRI="#Лондон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <NamedIndividual IRI="#Афиша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <NamedIndividual IRI="#Телевизор"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <NamedIndividual IRI="#Трейлер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <NamedIndividual IRI="#Барби"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <NamedIndividual IRI="#3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Природа"/>
+        <NamedIndividual IRI="#Краснодар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <NamedIndividual IRI="#Русская"/>
+        <NamedIndividual IRI="#Гоблин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Кристина_Риччи"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Замок"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#6-7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <NamedIndividual IRI="#Английская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <NamedIndividual IRI="#Узбекская"/>
+        <NamedIndividual IRI="#Dibmind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <NamedIndividual IRI="#Аватар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <NamedIndividual IRI="#3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Находится_в"/>
+        <NamedIndividual IRI="#Фэнтези"/>
+        <NamedIndividual IRI="#Лондон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Город"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#0-3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Ольга_Кузьмина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Сергей_Гармаш"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Город"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#8-9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <NamedIndividual IRI="#Русская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <NamedIndividual IRI="#Японская"/>
+        <NamedIndividual IRI="#Anidab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#15"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#15"/>
+        <NamedIndividual IRI="#Аватар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сеанс"/>
+        <NamedIndividual IRI="#15"/>
+        <NamedIndividual IRI="#Вечерние"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#16"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#16"/>
+        <NamedIndividual IRI="#Аватар"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сеанс"/>
+        <NamedIndividual IRI="#16"/>
+        <NamedIndividual IRI="#Утренние"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#21"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#21"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сеанс"/>
+        <NamedIndividual IRI="#21"/>
+        <NamedIndividual IRI="#Утренние"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#22"/>
+        <NamedIndividual IRI="#Киномакс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#22"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сеанс"/>
+        <NamedIndividual IRI="#22"/>
+        <NamedIndividual IRI="#Обеденные"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Пламя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <NamedIndividual IRI="#33"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <NamedIndividual IRI="#33"/>
+        <NamedIndividual IRI="#Барби"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Сеанс"/>
+        <NamedIndividual IRI="#33"/>
+        <NamedIndividual IRI="#Праздничные"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Космос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#Аврора"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Anidab"/>
+        <Literal>afd@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <NamedIndividual IRI="#Anidab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Режиссер"/>
+        <NamedIndividual IRI="#Anidab"/>
+        <Literal>AAAA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Dibmind"/>
+        <Literal>db@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <NamedIndividual IRI="#Dibmind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Режиссер"/>
+        <NamedIndividual IRI="#Dibmind"/>
+        <Literal>KKK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Fox"/>
+        <Literal>ds@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <NamedIndividual IRI="#Fox"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Режиссер"/>
+        <NamedIndividual IRI="#Fox"/>
+        <Literal>DDDD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#OOO_Cry"/>
+        <Literal>Cry@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <NamedIndividual IRI="#OOO_Cry"/>
+        <Literal>+89992891354</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <NamedIndividual IRI="#OOO_Cry"/>
+        <Literal>www.cry.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#OOO_Dog"/>
+        <Literal>Dog@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <NamedIndividual IRI="#OOO_Dog"/>
+        <Literal>+791024932859023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <NamedIndividual IRI="#OOO_Dog"/>
+        <Literal>www.dog.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#OOO_Dye"/>
+        <Literal>Dye@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <NamedIndividual IRI="#OOO_Dye"/>
+        <Literal>+782735327583756</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <NamedIndividual IRI="#OOO_Dye"/>
+        <Literal>www.dye.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#OOO_Fly"/>
+        <Literal>Fly@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <NamedIndividual IRI="#OOO_Fly"/>
+        <Literal>+92835827394</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <NamedIndividual IRI="#OOO_Fly"/>
+        <Literal>www.fly.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#OOO_Frog"/>
+        <Literal>Frog@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <NamedIndividual IRI="#OOO_Frog"/>
+        <Literal>+839486347867845</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <NamedIndividual IRI="#OOO_Frog"/>
+        <Literal>www.frog.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <Literal>Семейный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <Literal>Фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <Literal>18+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Аватар"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <NamedIndividual IRI="#Аврора"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Качество"/>
+        <NamedIndividual IRI="#Английская"/>
+        <Literal>Высокое</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Английская"/>
+        <Literal>Дубляж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Английская"/>
+        <Literal>Субтитры</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <NamedIndividual IRI="#Афиша"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Расположен_в"/>
+        <NamedIndividual IRI="#Афиша"/>
+        <Literal>Кинотеатрах</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Статус"/>
+        <NamedIndividual IRI="#Афиша"/>
+        <Literal>Активна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Барби"/>
+        <Literal>Комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Барби"/>
+        <Literal>Фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Барби"/>
+        <Literal>18+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Барби"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <Literal>Военный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <Literal>Драма</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <Literal>12+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Битва_за_Севастополь"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Вадим_Верещагин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <Literal>18:00 - 19:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <Literal>19:00 - 21:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Вечерние"/>
+        <Literal>19:30 - 21:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Гоблин"/>
+        <Literal>QQQ@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <NamedIndividual IRI="#Гоблин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Режиссер"/>
+        <NamedIndividual IRI="#Гоблин"/>
+        <Literal>MMMM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Оборудование"/>
+        <NamedIndividual IRI="#Город"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+        <Literal>фф1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+        <Literal>ффф</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дерек_Уилсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Джеймс_Кэмерон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Джерри_Брукхаймер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+        <Literal>вв</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Джонни_Депп"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Оборудование"/>
+        <NamedIndividual IRI="#Замок"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Зои_Салдана"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Зои_Салдана"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Казань"/>
+        <Literal>ул ПУК д43 проспект 5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Страна"/>
+        <NamedIndividual IRI="#Казань"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <NamedIndividual IRI="#Киномакс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+        <Literal>йй</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Кира_Найтли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Качество"/>
+        <NamedIndividual IRI="#Китайская"/>
+        <Literal>Среднее</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Китайская"/>
+        <Literal>Дубляж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <NamedIndividual IRI="#Космос"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <NamedIndividual IRI="#Космос"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Краснодар"/>
+        <Literal>ул. Гоголя 23 5 здание</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Страна"/>
+        <NamedIndividual IRI="#Краснодар"/>
+        <Literal>Россия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Кристина_Риччи"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Кристина_Риччи"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <NamedIndividual IRI="#Листовки"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Расположен_в"/>
+        <NamedIndividual IRI="#Листовки"/>
+        <Literal>Улицы</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Статус"/>
+        <NamedIndividual IRI="#Листовки"/>
+        <Literal>Не Активна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Лондон"/>
+        <Literal>улю алпл 23 дом 55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Страна"/>
+        <NamedIndividual IRI="#Лондон"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+        <Literal>ппа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+        <Literal>ффф</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Марго_Робби"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Оборудование"/>
+        <NamedIndividual IRI="#Море"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+        <Literal>ййй</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Никита_Тарасов"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <Literal>01:00 - 02:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <Literal>22:00 - 23:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Ночные"/>
+        <Literal>23:00 - 01:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+        <Literal>ул. дод кв 22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Страна"/>
+        <NamedIndividual IRI="#Нью-Йорк"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <Literal>12:00 - 14:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <Literal>13:00 - 15:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Обеденные"/>
+        <Literal>15:00 - 17:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Ольга_Кузьмина"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Ольга_Кузьмина"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+        <Literal>фф1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Орландо_Блум"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <Literal>Приключение</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <Literal>Семейный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <Literal>6+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <NamedIndividual IRI="#Пламя"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <Literal>09:00 - 11:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Праздничные"/>
+        <Literal>18:00 - 20:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Оборудование"/>
+        <NamedIndividual IRI="#Природа"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <NamedIndividual IRI="#Радио"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Расположен_в"/>
+        <NamedIndividual IRI="#Радио"/>
+        <Literal>Радио</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Статус"/>
+        <NamedIndividual IRI="#Радио"/>
+        <Literal>Не Активна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+        <Literal>ааа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Райан_Гослинг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Качество"/>
+        <NamedIndividual IRI="#Русская"/>
+        <Literal>Высокое</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Русская"/>
+        <Literal>Дубляж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Сергей_Гармаш"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Гармаш"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <Literal>Психологический</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <Literal>Фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <Literal>8+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Сонная_Лощина"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+        <Literal>ааа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сэм_Уортингтон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Адрес"/>
+        <NamedIndividual IRI="#Ташкент"/>
+        <Literal>ул. Тютчева д.243</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Страна"/>
+        <NamedIndividual IRI="#Ташкент"/>
+        <Literal>Узбекистан</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <NamedIndividual IRI="#Телевизор"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Расположен_в"/>
+        <NamedIndividual IRI="#Телевизор"/>
+        <Literal>Рекламах</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Статус"/>
+        <NamedIndividual IRI="#Телевизор"/>
+        <Literal>Активна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Тим_Бёртон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Том_Акерли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <NamedIndividual IRI="#Трейлер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Расположен_в"/>
+        <NamedIndividual IRI="#Трейлер"/>
+        <Literal>Кинотеатрах</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Статус"/>
+        <NamedIndividual IRI="#Трейлер"/>
+        <Literal>Активна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Качество"/>
+        <NamedIndividual IRI="#Узбекская"/>
+        <Literal>Низкое</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Узбекская"/>
+        <Literal>Субтитры</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Ульяна_Савельева"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <Literal>08:00 - 09:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <Literal>09:00 - 11:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Время"/>
+        <NamedIndividual IRI="#Утренние"/>
+        <Literal>10:00 - 11:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Оборудование"/>
+        <NamedIndividual IRI="#Фэнтези"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <Literal>Романтика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <Literal>12+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Хищные_птицы"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <Literal>Комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <Literal>Семейный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ограничение"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <Literal>0+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Создан"/>
+        <NamedIndividual IRI="#Чебурашка"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Награды"/>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+        <Literal>ввв</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Юлия_Пересиоьд"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Качество"/>
+        <NamedIndividual IRI="#Японская"/>
+        <Literal>Высокое</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Японская"/>
+        <Literal>Дубляж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <NamedIndividual IRI="#Японская"/>
+        <Literal>Субтитры</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#0-3"/>
+        <Literal>Полный ужас...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#0-3"/>
+        <Literal>Руки оторвать им!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#0-3"/>
+        <Literal>Бога нет!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип_зала"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>Обычный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>Лучший фильм в моей жизни</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>@Я тебя люблю</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <NamedIndividual IRI="#1000+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <NamedIndividual IRI="#1000+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_продажи"/>
+        <NamedIndividual IRI="#15"/>
+        <Literal>10.11.2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цена"/>
+        <NamedIndividual IRI="#15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <NamedIndividual IRI="#150+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_продажи"/>
+        <NamedIndividual IRI="#16"/>
+        <Literal>10.11.2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цена"/>
+        <NamedIndividual IRI="#16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип_зала"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>VIP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#2x2"/>
+        <Literal>ass@mail.ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <NamedIndividual IRI="#2x2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Режиссер"/>
+        <NamedIndividual IRI="#2x2"/>
+        <Literal>ФФФФ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_продажи"/>
+        <NamedIndividual IRI="#21"/>
+        <Literal>11.11.2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цена"/>
+        <NamedIndividual IRI="#21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_продажи"/>
+        <NamedIndividual IRI="#22"/>
+        <Literal>00.11.2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цена"/>
+        <NamedIndividual IRI="#22"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип_зала"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>Обычный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <NamedIndividual IRI="#300+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <NamedIndividual IRI="#300+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Дата_продажи"/>
+        <NamedIndividual IRI="#33"/>
+        <Literal>15.11.2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цена"/>
+        <NamedIndividual IRI="#33"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип_зала"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>VIP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#4-5"/>
+        <Literal>На один вечер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#4-5"/>
+        <Literal>Good</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#4-5"/>
+        <Literal>Я Я Я</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Тип_зала"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal>Обычный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <NamedIndividual IRI="#50+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <NamedIndividual IRI="#50+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <NamedIndividual IRI="#500+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <NamedIndividual IRI="#500+_$"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#6-7"/>
+        <Literal>Не плохой</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#6-7"/>
+        <Literal>dsss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Отзывы"/>
+        <NamedIndividual IRI="#8-9"/>
+        <Literal>Фильм бомба</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Рецензии"/>
+        <NamedIndividual IRI="#8-9"/>
+        <Literal>Rich bitch</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <Class IRI="#Зал"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <Class IRI="#Сеансы"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <Class IRI="#Сеансы"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <Class IRI="#Кинотеатр"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Находится_в"/>
+        <Class IRI="#Кинотеатр"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Находится_в"/>
+        <Class IRI="#Съемочная_площадка"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <Class IRI="#Озвучка"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <Class IRI="#Кинотеатр"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Сеанс"/>
+        <Class IRI="#Билет"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#В_Кинотеатре"/>
+        <Class IRI="#Кинотеатр"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Идет_в_кинотеатре"/>
+        <Class IRI="#Кинотеатр"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Идет_фильм"/>
+        <Class IRI="#Фильм"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_актера"/>
+        <Class IRI="#Актеры"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_зал"/>
+        <Class IRI="#Зал"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_место_съемки"/>
+        <Class IRI="#Съемочная_площадка"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_оценку"/>
+        <Class IRI="#Оценка"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_продюсера"/>
+        <Class IRI="#Продюсер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Имеет_руководство"/>
+        <Class IRI="#Руководство"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Находится_в"/>
+        <Class IRI="#Расположение"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Озвучивает_студия"/>
+        <Class IRI="#Студия"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Переведено_на"/>
+        <Class IRI="#Озвучка"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Рекламируется"/>
+        <Class IRI="#Реклама"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Сеанс"/>
+        <Class IRI="#Сеансы"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Email"/>
+        <Class IRI="#Руководство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Email"/>
+        <Class IRI="#Студия"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Адрес"/>
+        <Class IRI="#Расположение"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Время"/>
+        <Class IRI="#Сеансы"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Дата_продажи"/>
+        <Class IRI="#Билет"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <Class IRI="#Актеры"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <Class IRI="#Фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <Class IRI="#Кинотеатр"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <Class IRI="#Реклама"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Качество"/>
+        <Class IRI="#Озвучка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <Class IRI="#Студия"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <Class IRI="#Кинотеатр"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <Class IRI="#Зал"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <Class IRI="#Продюсер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <Class IRI="#Руководство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Награды"/>
+        <Class IRI="#Актеры"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Оборудование"/>
+        <Class IRI="#Съемочная_площадка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ограничение"/>
+        <Class IRI="#Фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Отзывы"/>
+        <Class IRI="#Оценка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Расположен_в"/>
+        <Class IRI="#Реклама"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Режиссер"/>
+        <Class IRI="#Студия"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Рецензии"/>
+        <Class IRI="#Оценка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <Class IRI="#Бюджет"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <Class IRI="#Бюджет"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Создан"/>
+        <Class IRI="#Фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Стаж_работы"/>
+        <Class IRI="#Актеры"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Стаж_работы"/>
+        <Class IRI="#Продюсер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Статус"/>
+        <Class IRI="#Реклама"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Страна"/>
+        <Class IRI="#Расположение"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <Class IRI="#Руководство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Тип_зала"/>
+        <Class IRI="#Зал"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <Class IRI="#Озвучка"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Цена"/>
+        <Class IRI="#Билет"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Адрес"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Время"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Дата_продажи"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Имеет_возраст"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Имеет_жанр"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Имеет_рейтинг"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Имеет_стоимость"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Качество"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Кол-во_актеров"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Кол-во_залов"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Кол-во_мест"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Кол-во_фильмов"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Контактный_телефон"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Награды"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Оборудование"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ограничение"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Отзывы"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Расположен_в"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Режиссер"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Рецензии"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Сборы_в_России"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Сборы_в_мире"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Создан"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Стаж_работы"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Статус"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Страна"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тех_поддержка"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Тип_зала"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Формат_озвучки"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Цена"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
